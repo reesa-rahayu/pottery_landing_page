@@ -1,0 +1,681 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background: #8e5500;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 1;
+}
+#header-img {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  left: 35px;
+  top: 11px;
+}
+#header-name {
+  color: #ffffff;
+  text-align: left;
+  font: 400 33px "Delicious Handrawn", sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 28px;
+}
+
+#header-name a:focus {
+  color: #d8c2a0;
+}
+
+#header-name a:hover {
+  color: #d8c2a0;
+}
+
+#header-name a:visited {
+  color: #ffffff;
+}
+
+.nav-link:focus {
+  color: #d8c2a0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 5vw;
+  top: 30px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Reem Kufi Fun", sans-serif;
+  position: relative;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+#hero {
+  padding-top: 150px;
+}
+#hero-name {
+  color: #3e1600;
+  font-family: "Delicious Handrawn";
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.hero-desc {
+  color: #3e1600;
+  text-align: center;
+  font-family: Reem Kufi Fun;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-pics {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-pic {
+  width: calc(25% - 20px);
+  flex-shrink: 0;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.rectangle-1 {
+  background: #d8c2a0;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: -10px;
+  z-index: -1;
+}
+h2 {
+  color: #3e1600;
+  font: 400 53px "Delicious Handrawn", sans-serif;
+}
+
+#features {
+  width: 100%;
+}
+
+#features p {
+  color: #3e1600;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+}
+.feature-1,
+.feature-2,
+.feature-3 {
+  width: 100%;
+}
+.feature-1-tag {
+  position: relative;
+  text-align: left;
+  left: 53px;
+  width: 53vw;
+  top: -10vh;
+}
+.feature-1-img {
+  border-radius: 12px;
+  width: 40vw;
+  height: auto;
+  position: relative;
+  float: right;
+  top: -200px;
+}
+.feature-1-decs {
+  text-align: left;
+  left: 53px;
+  width: 53vw;
+  top: -10vh;
+}
+.feature-2 {
+  margin-top: 25vh;
+}
+#video {
+  border-radius: 12px;
+  position: relative;
+  left: 53px;
+  width: 50vw;
+  height: 50vh;
+}
+.feature-2-tag {
+  position: relative;
+  text-align: left;
+  margin-left: 60vw;
+  top: -250px;
+}
+.feature-2-decs {
+  position: relative;
+  text-align: left;
+  margin-left: 60vw;
+  top: -250px;
+}
+.feature-3-img {
+  border-radius: 12px;
+  position: relative;
+  width: 411px;
+  height: 358px;
+}
+.feature-3-img,
+.feature-3-tag,
+.feature-3-decs {
+  position: relative;
+  margin: auto;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.feature-3-tag,
+.feature-3-decs {
+  width: 80vw;
+}
+
+.feature-3-tag {
+  margin-top: 25px;
+}
+
+.feature-3-decs {
+  padding-bottom: 25px;
+}
+
+#pricing {
+  height: auto;
+  position: relative;
+  background: #d8c2a0;
+  padding: 1vw;
+  border-radius: 20px;
+  margin: 10px;
+}
+.pricing-tag {
+  margin-top: 50px;
+  text-align: center;
+}
+.pricing-desk {
+  color: #3e1600;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.pricing-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.pricing-card {
+  flex-shrink: 0;
+  width: 23vw;
+  height: 406px;
+  position: relative;
+}
+
+.rectangle-4 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 23vw;
+  height: 406px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.single {
+  color: #3e1600;
+  text-align: center;
+  font: 700 33px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 48.5px);
+  top: 36px;
+}
+
+._1-12-pcs {
+  color: #3e1600;
+  text-align: center;
+  font: 400 26px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 41.5px);
+  top: 86px;
+}
+
+.free-customization {
+  color: #3e1600;
+  text-align: center;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  top: 280px;
+  margin: auto;
+}
+
+.free-shipping {
+  color: #3e1600;
+  text-align: center;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  top: 280px;
+}
+
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+
+._2 {
+  color: #3e1600;
+  text-align: center;
+  font: 700 48px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 47.5px);
+  top: 167px;
+}
+
+.pcs {
+  color: #3e1600;
+  text-align: center;
+  font: 400 32px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - -10.5px);
+  top: 184px;
+}
+
+.together {
+  color: #3e1600;
+  text-align: center;
+  font: 700 33px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 69.5px);
+  top: 36px;
+}
+
+._12-120-pcs {
+  color: #3e1600;
+  text-align: center;
+  font: 400 26px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 56.5px);
+  top: 86px;
+}
+
+._1-88 {
+  color: #3e1600;
+  text-align: center;
+  font: 700 48px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 57.5px);
+  top: 167px;
+}
+
+.pcs2 {
+  color: #3e1600;
+  text-align: center;
+  font: 400 32px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - -20.5px);
+  top: 184px;
+}
+
+.mini-party {
+  color: #3e1600;
+  text-align: center;
+  font: 700 33px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 80.5px);
+  top: 36px;
+}
+
+._120-600-pcs {
+  color: #3e1600;
+  text-align: center;
+  font: 400 26px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 68.5px);
+  top: 86px;
+}
+
+.free-customization2 {
+  color: #3e1600;
+  text-align: center;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  top: 305px;
+}
+
+.free-packaging {
+  color: #3e1600;
+  text-align: center;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  top: 240px;
+}
+
+.free-shipping2 {
+  color: #3e1600;
+  text-align: center;
+  font: 400 20px "Reem Kufi Fun", sans-serif;
+  position: relative;
+  top: 275px;
+}
+
+._1-7 {
+  color: #3e1600;
+  text-align: center;
+  font: 700 48px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 57.5px);
+  top: 167px;
+}
+
+.big-party {
+  color: #3e1600;
+  text-align: center;
+  font: 700 33px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 71.5px);
+  top: 36px;
+}
+
+._600-1200-pcs {
+  color: #3e1600;
+  text-align: center;
+  font: 400 26px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 76.5px);
+  top: 86px;
+}
+
+._1-5 {
+  color: #3e1600;
+  text-align: center;
+  font: 700 48px "Reem Kufi Fun", sans-serif;
+  position: absolute;
+  left: calc(50% - 57.5px);
+  top: 167px;
+}
+#order {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  padding: 53px;
+}
+.order-tag {
+  position: relative;
+  padding: 70px 0;
+  width: 70vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+}
+
+#email {
+  border: #d8c2a0 2px solid;
+  border-radius: 8px;
+  padding: 15px;
+  width: 50vw;
+  font: 500 16px "Reem Kufi Fun", sans-serif;
+}
+#submit {
+  background-color: #8e5500;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  align-items: center;
+  vertical-align: middle;
+  border: #8e5500 2px solid;
+  width: 10vw;
+  font: 600 18px "Reem Kufi Fun", sans-serif;
+}
+#submit:hover {
+  color: #3e1600;
+}
+
+#contact {
+  background-color: #d8c2a0;
+  color: #3e1600;
+  font: 400 16px "Reem Kufi Fun", sans-serif;
+  padding: 30px 20px 20px 20px;
+  border-radius: 12px 12px 0 0;
+}
+.contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#contact img {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+  #header {
+    top: 0;
+    height: 60px;
+  }
+  #header-img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+  }
+  #header-name {
+    visibility: hidden;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: 50px;
+  }
+  #hero {
+    padding-top: 100px;
+  }
+  #hero-name {
+    font-size: 32px;
+  }
+  .hero-desc {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .hero-pics {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+  .hero-pic {
+    width: calc(35vw - 20px);
+    gap: 5px;
+    flex-shrink: 0;
+    height: calc(35vw - 20px);
+    object-fit: cover;
+  }
+  .hero-pic1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  .rectangle-1 {
+    height: 200px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+
+  #features p {
+    font-size: 12px;
+  }
+  .feature-1-tag {
+    width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+  }
+  .feature-1-img {
+    position: relative;
+    width: 70vw;
+    float: none;
+    top: -120px;
+    left: calc(15%);
+  }
+  .feature-1-decs {
+    margin: 0 auto;
+    left: 0;
+    width: 80vw;
+    text-align: center;
+  }
+  .feature-2 {
+    margin-top: 0;
+  }
+  #video {
+    display: block;
+    left: 0;
+    width: 70vw;
+    height: 40vh;
+  }
+  #video,
+  .feature-2-tag,
+  .feature-2-decs {
+    top: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .feature-2-tag {
+    padding-top: 25px;
+  }
+  .feature-2-decs {
+    width: 80vw;
+    padding-bottom: 100px;
+  }
+  .feature-3-img {
+    width: 70vw;
+    height: auto;
+  }
+  #pricing{
+    padding-top: 70px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .pricing-tag {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .pricing-desk {
+    font-size: 12px;
+  }
+  .pricing-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  
+  .rectangle-4, .pricing-card{
+    width: 42vw;
+    height: calc(35vh + 50px);
+  }
+
+  .single, .together, .mini-party, .big-party{
+    font-size: x-large;
+    width: 100%;
+    left: 0;
+    top: 10%;
+  }
+
+  ._1-12-pcs, ._12-120-pcs, ._120-600-pcs, ._600-1200-pcs{
+    font-size: 20px;
+    top: 30%;
+    left: 0;
+    width: 100%;
+  }
+  .free-customization, .free-shipping{
+    font-size: 14px;
+    left: 0;
+    top: 75%;
+  }
+  .free-customization2, .free-packaging, .free-shipping2{
+    font-size: 14px;
+    left: 0;
+    top: 70%;
+  }
+
+  ._2, ._1-88, ._1-7, ._1-5{
+    font-size: 28px;
+    top: 50%;
+    left: 30%;
+    float: left;
+  }
+
+  .pcs,  .pcs2 {
+    font-size: 18px;
+    top: 54%;
+  }
+
+  .pcs2{
+    float: right;
+  }
+  
+  #order {
+    height: auto;
+    padding: 50px 0 100px 0;
+  }
+  .order-tag {
+    font-size: 36px;
+    padding: 50px 0;
+    width: 80vw;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 60vw;
+  }
+  #submit {
+    width: 25vw;
+  }
+  #contact p {
+    font-weight: 600;
+  }
+}
